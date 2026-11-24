@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Chapter 2 Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Open Console: Right-click -> Inspect -> Console</h1>
-    <!-- Only keep ONE of these uncommented -->
-  <script src="bmi.js"></script>
-   <script src="hypotenuse.js"></script>
-  <!-- <script src="miles.js"></script> -->
-  <img src="quiz pic.jpeg" alt="Quiz picture" width="400">
-  <!-- Change this line to test each file -->
-  <!-- <script src="hypotenuse.js"></script> -->
-  <!-- <script src="miles.js"></script> -->
-  
+
+    <h1>Welcome to Our Coding Academy
+
+    </h1>
+
+    <div class="tabs">
+        <button id="about-btn">About</button>
+        <button id="courses-btn">Courses</button>
+        <button id="contact-btn">Contact</button>
+    </div>
+
+    <section id="about" class="content show">
+        <h2>About Our School</h2>
+        <p>Welcome to our coding academy.</p>
+    </section>
+
+    <section id="courses" class="content">
+        <h2>Our Courses</h2>
+        <p>We teach HTML, CSS, JavaScript and Python.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Email: academy@example.com</p>
+    </section>
+
 </body>
 </html>
